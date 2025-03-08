@@ -2,6 +2,7 @@
     .name = .libmprompt, 
     .version = "0.6.3", 
     .minimum_zig_version = "0.13.0", 
+    .fingerprint = "0x7313fc0f29b8f82e"
     .dependencies = .{ 
         .libmprompt = .{
             .url = "https://github.com/koka-lang/libmprompt/archive/f03f534ca9ceaa95d7744025fd1a6cfa625ed7bd.tar.gz",
