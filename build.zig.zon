@@ -1,4 +1,15 @@
-.{ .name = "libmprompt", .version = "0.6.3", .minimum_zig_version = "0.13.0", .dependencies = .{ .libmprompt = .{
-    .url = "https://github.com/koka-lang/libmprompt/archive/f03f534ca9ceaa95d7744025fd1a6cfa625ed7bd.tar.gz",
-    .hash = "12205cdbea89d74e77c1ac3bd18b367eeef25e81fc996d9b1c0b099d12ab423262cc",
-} }, .paths = .{ "build.zig", "build.zig.zon" } }
+.{ 
+    .name = "libmprompt", 
+    .version = "0.6.3", 
+    .minimum_zig_version = "0.13.0", 
+    .dependencies = .{ 
+        .libmprompt = .{
+            .url = "https://github.com/koka-lang/libmprompt/archive/f03f534ca9ceaa95d7744025fd1a6cfa625ed7bd.tar.gz",
+            .hash = "12205cdbea89d74e77c1ac3bd18b367eeef25e81fc996d9b1c0b099d12ab423262cc",
+        } 
+    }, 
+    .paths = .{ 
+        "build.zig", 
+        "build.zig.zon" 
+    } 
+}
